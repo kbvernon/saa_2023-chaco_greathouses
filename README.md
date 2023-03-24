@@ -9,7 +9,7 @@ Repository for my presentation at the Society for American Archaeology 88th Annu
 
 __Slides:__ <https://kbvernon.github.io/saa_2023-chaco_greathouses>
 
-You can press "S" to enter (or leave) Speaker view and see my slide notes. The hamburger button ☰ at the bottom left of the screen opens a menu that allows you to easily navigate the presentation.  
+You can press "F" to enter Full Screen mode and "S" to enter Speaker view. The hamburger button ☰ at the bottom left of the screen opens a menu that allows you to easily navigate the presentation.  
 
 __Session:__ "Behavioral Ecology and Archaeology"
 
