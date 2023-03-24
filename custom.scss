@@ -1,0 +1,174 @@
+/*-- scss:defaults --*/
+
+/*! REASONABLE COLORS v0.4.0 | MIT License | https://github.com/matthewhowell/reasonable-colors */
+
+/* gray */
+$gray-1: #f6f6f6;
+$gray-2: #e2e2e2;
+$gray-3: #8b8b8b;
+$gray-4: #6f6f6f;
+$gray-5: #3e3e3e;
+$gray-6: #222222;
+
+/* red */
+/* hue 3 */
+$red-1: #fff8f6;
+$red-2: #ffddd8;
+$red-3: #ff4647;
+$red-4: #e0002b;
+$red-5: #830014;
+$red-6: #530003;
+
+/* cinnamon */
+/* hue 5 */
+$cinnamon-1: #fff8f3;
+$cinnamon-2: #ffdfc6;
+$cinnamon-3: #d57300;
+$cinnamon-4: #ac5c00;
+$cinnamon-5: #633300;
+$cinnamon-6: #371d00;
+
+/* yellow */
+/* hue 7 */
+$yellow-1: #fff9e5;
+$yellow-2: #ffe53e;
+$yellow-3: #9c8b00;
+$yellow-4: #7d6f00;
+$yellow-5: #463d00;
+$yellow-6: #292300;
+
+/* powder */
+/* hue 15 */
+$powder-1: #dafaff;
+$powder-2: #8df0ff;
+$powder-3: #0098a9;
+$powder-4: #007987;
+$powder-5: #004048;
+$powder-6: #002227;
+
+/* cerulean */
+/* hue 17 */
+$cerulean-1: #e8f6ff;
+$cerulean-2: #b9e3ff;
+$cerulean-3: #0092c5;
+$cerulean-4: #00749d;
+$cerulean-5: #003c54;
+$cerulean-6: #001d2a;
+
+/* blue */
+/* hue 19 */
+$blue-1: #f0f4ff;
+$blue-2: #d4e0ff;
+$blue-3: #0089fc;
+$blue-4: #006dca;
+$blue-5: #00386d;
+$blue-6: #001a39;
+ 
+$presentation-h2-font-size: 2em;
+
+/*-- scss:rules --*/
+
+.quarto-figure .img0,
+.fragment .img0 {
+  margin: 0;
+}
+
+.large {
+  font-size: 1.5em;
+}
+
+.reveal .slides a {
+  color: $cerulean-4;
+  border-bottom: 1px solid $cerulean-2;
+}
+
+.reveal .slides a:hover {
+  color: $cerulean-3;
+  border-bottom: 1px solid $cerulean-3;
+}
+
+.reveal strong, b {
+  color: $cinnamon-5;  
+}
+
+.reveal .slides .slide {
+  margin: 0.85em;
+}
+
+.no-top-margin p {
+  margin-top: 0;
+}
+
+.horizontal-center {
+  text-align: center;
+}
+
+.horizontal-center aside {
+  width: 100%;
+}
+
+/* FRAGMENT STUFF */
+.flt .fragment {
+  margin: 0 auto auto 0 !important;
+}
+
+.reveal .slides section .fragment.stay {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* TITLE SLIDE */
+.reveal .slides .title-left {
+  margin: 0.5em 0.85em 0.85em 0.85em;
+}
+
+.title-left h2 {
+  font-size: 2.3em !important;
+  color: $cinnamon-6;
+  line-height: 1.2em;
+  font-weight: 700 !important;
+  margin: 0;
+  text-shadow: -3px -2px 2px $cinnamon-2;
+}
+
+.title-left .title-top {
+  margin: 0;
+  color: $gray-5;
+  font-size: 1em;
+}
+
+.title-left .title-top p {
+  margin: 0;
+}
+
+.title-left .title-bottom {
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  font-size: 1em;
+  line-height: 1.1em;
+}
+
+.title-left .title-bottom p {
+  margin: 0.2em 0 0 0;
+  color: $cinnamon-2;
+}  
+
+.title-left .title-bottom a {
+  color: $cinnamon-2;
+  border-bottom: none !important;
+}  
+
+.title-left .title-bottom a:hover {
+  color: #FFF;
+}  
+
+.qr {
+  position: absolute; 
+  right: 0; 
+  top: 0;
+}
+
+.qr p, img {
+  margin: 0 !important;
+}
