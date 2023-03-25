@@ -137,7 +137,7 @@ Can explore this question by looking for areas where great houses and farms or p
 
 ## Covariance of spatio-temporal weights {.horizontal-center}
 
-![](figures/covariance-of-weights.png){.img0 width="80%" fig-align="center" style="margin-top:1em;"}
+![](figures/covariance-of-weights.png){.img0 width="73%" fig-align="center" style="margin-top:1em;"}
 
 ---
 
