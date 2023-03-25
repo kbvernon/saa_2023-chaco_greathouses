@@ -89,12 +89,12 @@ Habitat **suitability** is negative density dependent, so how do we get agglomer
 
 ## Exploitative mutualism
 
-__Circumscription__ leads to inequality but may also serve as a dis-interested third party re: collective action.  
+__Circumscription__ may serve as a dis-interested third party but comes at the cost of inequality.  
 
 ![](figures/cartoon-habitat-selection-02.png){.img0 width="70%" fig-align="center" style="margin-top:1em;"}
 
 ::: aside
-See Wilson and Codding (2020). "The marginal utility of inequality." <https://doi.org/10.1007/s12110-020-09383-4>
+See Wilson and Codding (2020) [The marginal utility of inequality](https://doi.org/10.1007/s12110-020-09383-4).
 :::
 
 ## Co-regionalization  
@@ -102,6 +102,10 @@ See Wilson and Codding (2020). "The marginal utility of inequality." <https://do
 Can explore this question by looking for areas where great houses and farms or pueblos co-occur.  
 
 ![](figures/cartoon-farming-contribution.png){.img0 width="70%" fig-align="center" style="margin-top:1em;"}
+
+::: aside
+Fitting a multivariate space-time model with INLA in R as described in Gómez-Rubio _et al_ (2019) [Bayesian joint spatio-temporal analysis of multiple diseases](https://raco.cat/index.php/SORT/article/view/356181).
+:::
 
 ## Unit of analysis {.horizontal-center background-image="figures/unit-of-analysis.png" background-size="contain"}
 
