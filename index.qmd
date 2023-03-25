@@ -164,16 +164,16 @@ Method described in Gómez-Rubio _et al_ (2019) [Bayesian joint spatio-temporal 
 ## Acknowledgments {background-image="figures/chaco-masonry.jpg" background-size="contain"}
 
 ::: {style="width:65%; text-align: left; margin: 0 auto auto 0;"}
-::: {layout="[[1,1], [1,1.5,3]]"}
+::: {layout="[[1,1], [2.5,0.8,2.5]]"}
 ![](figures/logo-uuac.png){style="height:75px;"}
 
 ![](figures/logo-asw.png){style="height:65px;"}
 
+![](https://ibsweb.colorado.edu/archaeology/wp-content/uploads/sites/20/2021/10/CfAS-CCSA_notagline.png){style="height:115px; padding-top:10px;"}
+
 ![](https://www.nsf.gov/policies/images/NSF_Official_logo_High_Res_1200ppi.png){style="height:140px;"}
 
 ![](figures/logo-cybersw.png){style="height:100px; padding-top:20px;"}
-
-![](https://ibsweb.colorado.edu/archaeology/wp-content/uploads/sites/20/2021/10/CfAS-CCSA_notagline.png){style="height:115px; padding-top:10px;"}
 :::
 
 
