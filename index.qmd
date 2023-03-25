@@ -22,110 +22,6 @@ Vernon, McCool, Brewer, Codding, Ortman
 {{< fa brands github >}} [kbvernon/saa_2023-chaco_greathouses](https://github.com/kbvernon/saa_2023-chaco_greathouses){style="padding-left: 0.3rem;"}
 :::
 
-## Why density? {.horizontal-center}
-
-![](figures/us-cities.png){width="78%" fig-align="center"}
-
-::: aside
-Cities data retrieved from <https://simplemaps.com/data/us-cities> on 23/03/03.
-:::
-
-## Familiar hypotheses
-
-::: {.fragment .semi-fade-out fragment-index=0}
-1.  [**Natural advantages**]{.large}
-    Environment offers 🌳 resources, soil, 🌤️ climate️,💧 water!
-:::
-
-::: {.fragment .fade-in-then-semi-out fragment-index=0}
-2.  [**Agglomeration effects**]{.large}
-    Density offers 🚚 reduced transport costs, 👷 available labor️, and 🧪 knowledge spill-overs
-:::
-
-::: {.fragment .fade-in fragment-index="1"}
-3.  [**But cities are costly, too!**]{.large}
-    More people means 🤼‍competition for jobs, 📈 higher rents, 🍷 expensive food, and 😬 more people\
-:::
-
-## The ideal free distribution
-
-The **suitability** $S_i$ of habitat $i$ is some function of density
-
-$$S_i = Q_i - f(D_i)$$
-
-![](figures/cartoon-habitat-selection-01.png){.img0 width="70%" fig-align="center" style="margin-top:1em;"}
-
-<!-- 
-## What about agglomeration effects?
-
-The __suitability__ $S_i$ of habitat $i$ is some function of density 
-
-$$S_i = Q_i - f(D_i) + g(D_i)$$
-
-<br>
-
-where
-
-[$Q$]{style="color:#633300;"}: natural advantage  
-[$\,f$]{style="color:#633300;"}: cost of density  
-[$\,g$]{style="color:#633300;"}: agglomeration effect  
-
-<br>
-
-⚠️ Almost certainly the case that $g < f$ for most of human history.
--->
-
-## Exploitative mutualism
-
-The **suitability** $S_i$ of habitat $i$ is some function of density
-
-$$S_i = Q_i - f(D_i)$$
-
-![](figures/cartoon-habitat-selection-02.png){.img0 width="70%" fig-align="center" style="margin-top:1em;"}
-
-::: aside
-See Wilson and Codding (2020). "The marginal utility of inequality." <https://doi.org/10.1007/s12110-020-09383-4>
-:::
-
-## A cartoon model of history
-
-::: {.r-stack width="100%" style="margin-top:0;"}
-
-::: {.fragment .stay fragment-index=0}
-![](figures/a-cartoon-of-human-history-01.png){.img0}
-:::
-
-::: {.fragment .fade-in-then-out fragment-index=0}
-![](figures/a-cartoon-of-human-history-02.png){.img0}
-:::
-
-::: {.fragment .fade-in fragment-index=1}
-![](figures/a-cartoon-of-human-history-03.png){.img0}
-:::
-:::
-
-## The Chaco world {.horizontal-center background-image="figures/chaco-world.png" background-size="contain"}
-
-::: aside
-[Map displays extent of HUC10 watersheds overlapping with the Chaco region.]{style="color:black;"}
-:::
-
-## Why are Chaco great houses built in these areas? {.horizontal-center background-image="figures/chaco-world-great-houses.png" background-size="contain"}
-
-[Why this place?]{.menu-title style="display:none"}
-
-::: aside
-[Map displays centroids of HUC10 watersheds with at least one great house.]{style="color:black;"}
-:::
-
-## Why are they built at these times? {.horizontal-center}
-
-[Why this time?]{.menu-title style="display:none"}
-
-::: {.r-stack width="100%" style="margin-top:1em;"}
-![](figures/construction-dates.png){width="65%" fig-align="center" style="margin-top: 1.5em;"}
-:::
-
 ## What is a Chaco great house? {.horizontal-center}
 
 [What is a great house?]{.menu-title style="display:none"}
@@ -144,34 +40,68 @@ See Wilson and Codding (2020). "The marginal utility of inequality." <https://do
 Outlines adapted from [Van Dyke (2003)](https://doi.org/10.1080/00231940.2003.11758488), Figure 1.
 :::
 
-## What about local farmers? {.horizontal-center}
+## Why are they built in these areas? {.horizontal-center background-image="figures/chaco-world-great-houses.png" background-size="contain"}
 
-[What came before?]{.menu-title style="display:none"}
+[Why this place?]{.menu-title style="display:none"}
 
-::: no-top-margin
-![](figures/subregion-profiles.png){width="80%" fig-align="center"}
+::: aside
+[Map displays centroids of HUC10 watersheds with at least one great house.]{style="color:black;"}
 :::
 
-## Do farmers make great houses more likely?
+## Why are they built at these times? {.horizontal-center}
 
-Log of the **relative rate** of great houses $\theta_i$ in habitat $i$ is a function of ecology $Q_i$ and socioeconomics $\gamma_i$
+[Why this time?]{.menu-title style="display:none"}
 
-$$log\; \theta_i = f(Q_i) + \gamma_i$$
+::: {.r-stack width="100%" style="margin-top:1em;"}
+![](figures/construction-dates.png){width="65%" fig-align="center" style="margin-top: 1.5em;"}
+:::
+
+## A modern analogy {.horizontal-center}
+
+![](figures/us-cities.png){width="78%" fig-align="center"}
+
+::: aside
+Cities data retrieved from <https://simplemaps.com/data/us-cities> on 23/03/03.
+:::
+
+## Familiar hypotheses
+
+::: {.fragment .semi-fade-out fragment-index=0}
+1.  [**Natural advantages**]{.large}  
+    Environment offers 🌳 resources, soil, 🌤️ climate️,💧 water!
+:::
+
+::: {.fragment .fade-in-then-semi-out fragment-index=0}
+2.  [**Agglomeration effects**]{.large}  
+    Density offers 🚚 reduced transport costs, 👷 available labor️, and 🧪 knowledge spill-overs  
+:::
+
+::: {.fragment .fade-in fragment-index="1"}
+3.  [**But cities are costly, too!**]{.large}  
+    More people means 🤼‍competition for jobs, 📈 higher rents, 🍷 expensive food, and 😬 more people  
+:::
+
+## The ideal free distribution
+
+Habitat **suitability** is negative density dependent, so how do we get agglomeration effects?
+
+![](figures/cartoon-habitat-selection-01.png){.img0 width="70%" fig-align="center" style="margin-top:1em;"}
+
+## Exploitative mutualism
+
+__Circumscription__ leads to inequality but may also serve as a dis-interested third party re: collective action.  
+
+![](figures/cartoon-habitat-selection-02.png){.img0 width="70%" fig-align="center" style="margin-top:1em;"}
+
+::: aside
+See Wilson and Codding (2020). "The marginal utility of inequality." <https://doi.org/10.1007/s12110-020-09383-4>
+:::
+
+## Co-regionalization  
+
+Can explore this question by looking for areas where great houses and farms or pueblos co-occur.  
 
 ![](figures/cartoon-farming-contribution.png){.img0 width="70%" fig-align="center" style="margin-top:1em;"}
-
-## Data sources
-
-<br>
-
-![](figures/logo-cybersw.png){width="300px"}  
-Archaeological data come from [cyberSW](https://cybersw.org/), *a cyberinfrastructure and collaborative space for conducting interdisciplinary research on and exploring the pre-Hispanic archaeological record of the US Southwest and Northwest Mexico*.
-
-<br>
-
-[**SKOPE**]{.large}  
-[Synthesizing Knowledge of Past Environments]{style="font-weight:bold; color:#003C54 !important;"}  
-Paleo-climate data provided by [SKOPE](https://www.openskope.org/), specifically the [PaleoCAR](https://github.com/bocinsky/paleocar) model that regresses modern PRISM data on tree ring widths to hindcast past climates.
 
 ## Unit of analysis {.horizontal-center background-image="figures/unit-of-analysis.png" background-size="contain"}
 
