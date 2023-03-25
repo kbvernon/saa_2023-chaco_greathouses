@@ -169,7 +169,7 @@ Method described in Gómez-Rubio _et al_ (2019) [Bayesian joint spatio-temporal 
 
 ![](figures/logo-asw.png){style="height:65px;"}
 
-![](https://ibsweb.colorado.edu/archaeology/wp-content/uploads/sites/20/2021/10/CfAS-CCSA_notagline.png){style="height:115px; padding-top:10px;"}
+![](https://ibsweb.colorado.edu/archaeology/wp-content/uploads/sites/20/2021/10/CfAS-CCSA_notagline.png){style="height:120px; padding-top:10px;"}
 
 ![](https://www.nsf.gov/policies/images/NSF_Official_logo_High_Res_1200ppi.png){style="height:140px;"}
 
