@@ -56,14 +56,6 @@ Outlines adapted from [Van Dyke (2003)](https://doi.org/10.1080/00231940.2003.11
 ![](figures/construction-dates.png){width="65%" fig-align="center" style="margin-top: 1.5em;"}
 :::
 
-## A modern analogy {.horizontal-center}
-
-![](figures/us-cities.png){width="78%" fig-align="center"}
-
-::: aside
-Cities data retrieved from <https://simplemaps.com/data/us-cities> on 23/03/03.
-:::
-
 ## Familiar hypotheses
 
 ::: {.fragment .semi-fade-out fragment-index=0}
