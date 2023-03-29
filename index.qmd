@@ -22,6 +22,12 @@ Vernon, McCool, Brewer, Codding, Ortman
 {{< fa brands github >}} [kbvernon/saa_2023-chaco_greathouses](https://github.com/kbvernon/saa_2023-chaco_greathouses){style="padding-left: 0.3rem;"}
 :::
 
+::: {.notes}
+The word 'agglomeration' is pedantic, a gerund that draws hoity-toity intellectuals to it like moths to a flame. But, it's also used a lot in urban and economic geography where it refers to "spatial clustering". Of course, in urban planning, it's just called 'density', so I guess, just call it what you want.  
+
+Why should we care about this process? From the perspective of an archaeologist, the answer is surely that density is caught up in virtually every social process you can think of - from inequality to intensification to state formation. From the perspective of a citizen of the modern world, of course, the answer is that we can't let NIMBYs win. Building for density in cities is one of the most powerful tools we have for promoting sustainable development while also combating social and economic injustice, so understanding it, what causes it and what consequences it might have, is critically important from virtually every angle.  
+:::
+
 ## What is a Chaco great house? {.horizontal-center}
 
 [What is a great house?]{.menu-title style="display:none"}
@@ -40,6 +46,10 @@ Vernon, McCool, Brewer, Codding, Ortman
 Outlines adapted from [Van Dyke (2003)](https://doi.org/10.1080/00231940.2003.11758488), Figure 1.
 :::
 
+::: {.notes}
+Monumental architecture, typically with one or more kivas surrounded by multi-story room blocks. They are also often found on prominent land forms and they are typically surrounded by dispersed pueblos or farms. 
+:::
+
 ## Why are they built in these areas? {.horizontal-center background-image="figures/chaco-world-great-houses.png" background-size="contain"}
 
 [Why this place?]{.menu-title style="display:none"}
@@ -54,6 +64,10 @@ Outlines adapted from [Van Dyke (2003)](https://doi.org/10.1080/00231940.2003.11
 
 ::: {.r-stack width="100%" style="margin-top:1em;"}
 ![](figures/construction-dates.png){width="65%" fig-align="center" style="margin-top: 1.5em;"}
+:::
+
+::: {.notes}
+Two major building periods in the 11th century, though initial building began much earlier and continued even after Chaco canyon itself faded.  
 :::
 
 ## Familiar hypotheses
@@ -73,31 +87,51 @@ Outlines adapted from [Van Dyke (2003)](https://doi.org/10.1080/00231940.2003.11
     More people means 🤼‍competition for jobs, 📈 higher rents, 🍷 expensive food, and 😬 more people  
 :::
 
-## The ideal free distribution
+::: {.notes}
+Agglomeration effects = scaling effects that encourage density. 
+:::
 
-Habitat **suitability** is negative density dependent, so how do we get agglomeration effects?
+## Clustering is costly!
 
-![](figures/cartoon-habitat-selection-01.png){.img0 width="70%" fig-align="center" style="margin-top:1em;"}
+IFD tells us that habitat **suitability** is negative density dependent, so how do we get agglomeration effects?  
 
-## Exploitative mutualism
+![](figures/cartoon-habitat-selection-01.png){.img0 width="70%" fig-align="center" style="margin-top:2em;"}
 
-__Circumscription__ may serve as a dis-interested third party but comes at the cost of inequality.  
+## Allee effects are unstable
 
-![](figures/cartoon-habitat-selection-02.png){.img0 width="70%" fig-align="center" style="margin-top:1em;"}
+Positive effects at low density are eventually overwhelmed by competition.  
+
+![](figures/cartoon-habitat-selection-02.png){.img0 width="70%" fig-align="center" style="margin-top:2em;"}
+
+## But, unequal effects may be self-reinforcing
+
+Given circumscription, the productivity of an unequal system will increase *relative to alternative arrangements*.  
+
+![](figures/cartoon-habitat-selection-03.png){.img0 width="70%" fig-align="center" style="margin-top:2em;"}
 
 ::: aside
 See Wilson and Codding (2020) [The marginal utility of inequality](https://doi.org/10.1007/s12110-020-09383-4).
 :::
 
+::: {.notes}
+The key here is circumscription. It guarantees that subordinates will always be worse off by choosing not to participate. At the same time, dominants will benefit from subordination. So the *relative* advantages of the whole system will tend to increase.  
+
+In the context of a sedentary, food production economy, this process would be amplified as the opportunity costs of moving would already be really high.  
+:::
+
 ## Co-regionalization  
 
-Can explore this question by looking for areas where great houses and farms or pueblos co-occur.  
+Can explore this process by looking for times and places where great houses and pueblos co-occur.  
 
-![](figures/cartoon-farming-contribution.png){.img0 width="70%" fig-align="center" style="margin-top:1em;"}
+![](figures/cartoon-farming-contribution.png){.img0 width="70%" fig-align="center" style="margin-top:2em;"}
 
 ::: aside
 Relative rate is ratio of observed to expected counts, estimated using a multivariate space-time model fit with INLA in R.  
 Method described in Gómez-Rubio _et al_ (2019) [Bayesian joint spatio-temporal analysis of multiple diseases](https://raco.cat/index.php/SORT/article/view/356181).
+:::
+
+::: {.notes}
+Values less than 1 mean observed counts are lower than expected. Values greater than 1 mean observed counts are greater than expected.  
 :::
 
 ## Unit of analysis {.horizontal-center background-image="figures/unit-of-analysis.png" background-size="contain"}
@@ -128,13 +162,49 @@ Method described in Gómez-Rubio _et al_ (2019) [Bayesian joint spatio-temporal 
 
 ![](figures/spatial-random-effects.png){.img0 .mt-0 width="90%" fig-align="center"}
 
+::: aside
+Sum of shared and specific is total effect for each. 
+:::
+
+::: {.notes}
+
+- Shared effect represents pattern irrespective of type.  
+- Specific effects represent places that deviate from the shared effect.  
+- So, there's just less of everything in the NE, and even less of great houses there.
+
+:::
+
 ## Temporal random effects {.horizontal-center}
 
 ![](figures/temporal-random-effects.png){.img0 width="65%" fig-align="center" style="margin-top:3em;"}
 
+::: aside
+Sum of shared and specific is total effect for each. 
+:::
+
+::: {.notes}
+
+- Shared effect represents pattern irrespective of type.  
+- Specific effects represent times that deviate from the shared effect.  
+- So, there's just less of everything before 900 and after 1300, 
+- Slightly more of everything between those times,
+- and even more great houses then.
+
+:::
+
 ## Covariance of spatio-temporal weights {.horizontal-center}
 
 ![](figures/covariance-of-weights.png){.img0 width="73%" fig-align="center" style="margin-top:1em;"}
+
+::: aside
+Weights are contribution of shared effect to relative rates of each.
+:::
+
+::: {.notes}
+
+Positive covariance means times and places with more of everything also have more of each. Negative covariances means more of one and less of the other.  
+
+:::
 
 ---
 

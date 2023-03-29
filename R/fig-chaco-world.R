@@ -202,7 +202,7 @@ innie <- st_sym_difference(
 )
 
 chaco_xy <- chaco |> st_centroid() |> st_coordinates() |> c()
-chaco_xy <- chaco_xy + c(55000, 18000)
+chaco_xy <- chaco_xy + c(65000, 18000)
 
 bob <- ggplot() +
   annotation_raster(
@@ -271,6 +271,11 @@ bob +
     sigma = 2,
     expand = 4
   ) +
+  geom_label(
+    aes(chaco_xy[1], chaco_xy[2], label = "Chaco Canyon"),
+    label.padding = unit(0.5, "lines"),
+    size = 12/.pt
+  ) + 
   coord_sf(
     xlim = bb8[c("xmin", "xmax")],
     ylim = bb8[c("ymin", "ymax")],
